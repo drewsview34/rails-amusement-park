@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 2021_09_30_221926) do
     t.integer "tickets"
     t.integer "height"
     t.string "password"
-    t.boolean "admin"
+    t.boolean "admin", default: false
   end
 
 end
