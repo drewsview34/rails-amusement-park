@@ -6,6 +6,8 @@ class CreateAttractions < ActiveRecord::Migration[5.2]
       t.integer :happiness_rating
       t.integer :tickets
       t.integer :min_height
+
+      t.timestamps
     end
   end
 end
